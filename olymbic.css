@@ -1,0 +1,39 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.olympic-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    position: relative;
+    bottom: 100px;
+    left: 30px;
+    justify-content: center;
+}
+
+.ring {
+    width: 100px;
+    height: 100px;
+    border: 8px solid;
+    border-radius: 50%;
+    position: absolute;
+    background: transparent;
+}
+
+.blue { border-color: #0057A0; top: 0; left: 0; }
+.black { border-color: #000; top: 0; left: 120px; }
+.red { border-color: #D52B1E; top: 0; left: 240px; }
+.yellow { border-color: #FFB81C; top: 50px; left: 60px; }
+.green { border-color: #00843D; top: 50px; left: 180px; }

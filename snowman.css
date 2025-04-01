@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a04b48;
+  background: linear-gradient(red,yellow,orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.snowman {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hat {
+  position: absolute;
+  top: -56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hat-top {
+  width: 65px;
+  height: 40px;
+  position: relative;
+  top: 15px;
+  background: #111;
+}
+
+.hat-band {
+  width: 63px;
+  height: 10px;
+  background: #fff;
+  position: relative;
+  bottom: 15px;
+}
+
+.hat-brim {
+  width: 80px;
+  height: 8px;
+  background: #111;
+  margin-top: 3px;
+}
+
+.head {
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  top: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 100%);
+  transform: rotate(175deg);
+}
+
+.eyes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 50%;
+  transform: rotate(4deg);
+}
+
+.eye {
+  width: 12.5px;
+  height: 12.5px;
+  background: rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+.scarf {
+  width: 60px;
+  height: 12px;
+  background: #f4a03d;
+  border-radius: 6px;
+  position: relative;
+  top: 5px;
+  margin-bottom: 5px;
+}
+.body {
+  width: 120px;
+  height: 120px;
+  background: white;
+  position: relative;
+  bottom: 2px;
+  border-radius: 50%;
+  margin: 0 auto;
+  clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 100%);
+  transform: rotate(-6deg);
+}
