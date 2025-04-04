@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f6f6f6;
     margin: 0;
     padding: 0;
     display: flex;
@@ -19,23 +19,25 @@ body {
 }
 
 .mango {
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: 250px;
     background: linear-gradient(to bottom,#ff8c00, #ffcc00);
     border-radius: 60% 40% 60% 40%;
     position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    clip-path: ellipse();
 }
 
 .highlight {
-    width: 40px;
+    width: 20px;
     height: 80px;
     background: rgba(255, 255, 255, 0.882);
     position: absolute;
-    top: 30px;
-    left: 20px;
+    top: 50px;
+    left: 40px;
     border-radius: 50%;
-    transform: rotate(-20deg);
+    transform: rotate(25deg);
+    opacity: 0.8;
 }
 
 .leaf {
@@ -45,7 +47,7 @@ body {
     border-radius: 50%;
     position: absolute;
     top: -30px;
-    left: 50px;
+    left: 10px;
     transform: rotate(-20deg);
 }
 
